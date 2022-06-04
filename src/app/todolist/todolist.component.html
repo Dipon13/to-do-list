@@ -1,8 +1,19 @@
 <div class="maincontent">
-<input type="text" name="task" placeholder="Enter your task here" #todotask>
-<button (click)="addtask(todotask.value);todotask.placeholder='Enter another task'" id="addbtn">Add Task</button>
-<br><br><div class="tasklist" *ngFor="let i of arr">
-    <P id="tasks">{{i}} <span><input (click)="checkbox($event)" type="checkbox" name="{{i}}" id="chkbx"></span></P>
-</div>
-<br><br><button (click)="removetask()" id="removebtn">Remove Task</button>
+  <input type="text" name="task" placeholder="Enter your task here" #todotask />
+  <button (click)="addtask(todotask.value); todotask.value = ''" id="addbtn">
+    Add Task
+  </button>
+  <br /><br />
+  <div class="tasklist" *ngFor="let i of arr">
+    <P id="tasks"
+      >{{ i }}
+      <span
+        ><input
+          (click)="checkbox($event)"
+          type="checkbox"
+          name="{{ i }}"
+          id="chkbx" /></span
+    ></P>
+  </div>
+  <br /><br /><button (click)="removetask()" id="removebtn">Remove Task</button>
 </div>
