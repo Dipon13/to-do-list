@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-.maincontent{
-    text-align: center;
-    margin-top: 2rem;
-    font-family: 'Montserrat', sans-serif;
+.maincontent {
+  text-align: center;
+  margin-top: 2rem;
+  font-family: 'Montserrat', sans-serif;
 }
-#addbtn{
-    margin-left: 1rem;
-    background-color: #2874cb;
+#addbtn {
+  margin-left: 1rem;
+  background-color: #2874cb;
   border: none;
   color: white;
   padding: 5px 10px;
@@ -16,8 +16,8 @@
   font-size: 16px;
   cursor: pointer;
 }
-#removebtn{
-    background-color: #ec4876f2;
+#removebtn {
+  background-color: #ec4876f2;
   border: none;
   color: white;
   padding: 5px 10px;
@@ -25,17 +25,17 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin-bottom: 1rem;
 }
-.tasklist{
-
-    width: 40%;
-    height: 2rem;
-    margin-left: 28%;
-    font-weight: bolder;
-    text-align: left;
-    margin-left: 25%;
+.tasklist {
+  width: 40%;
+  height: 2rem;
+  margin-left: 28%;
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 25%;
 }
 
-span{
-    margin-left: 2rem;
+span {
+  margin-left: 2rem;
 }
