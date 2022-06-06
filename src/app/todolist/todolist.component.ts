@@ -20,8 +20,10 @@ export class TodolistComponent implements OnInit {
   arr2 : any[]=[]
   del : any[]=[]
   addtask(item:string){
+    if(item==''){alert("Hey! The Task field is Empty !!!")}
+    else{
     this.arr.push(item)
-    console.log(this.arr)
+    console.log(this.arr)}
   }
 
   removetask(){
